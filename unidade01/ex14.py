@@ -1,5 +1,6 @@
 #Elabore um programa que calcule e apresente o volume de uma caixa retangular, 
 #por meio da fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
+#Autor: Stenio Neves
 
 print("Calculo de volume  de um objeto retangular")
 comprimento=int(input("Digite o comprimento do objeto: "))
