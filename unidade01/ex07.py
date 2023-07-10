@@ -7,3 +7,10 @@
 # Ao final, o programa deve apresentar os valores da velocidade média (VELOCIDADE), 
 #tempo gasto na viagem (TEMPO), a distância percorrida (DISTANCIA)
 # e a quantidade de litros (LITROS_USADOS) utilizada na viagem.
+
+tempo=float(input("Digite o tempo em horas :"))
+velocidade_media=float(input("Digite a velocidade média em Km/h:"))
+distancia= tempo*velocidade_media
+litros_usados= distancia/12
+
+print(f"")
