@@ -8,6 +8,6 @@ valor_real=float(input("Digite a quantidade de valores em reais(R$):"))
 conversao= valor_real/cotacao_dolar
 print(f"Cotação do dolar R$ {cotacao_dolar}")
 print(f"Valor informado  em R$ {valor_real}")
-print(f"Valor convertido : $ {conversao} USD")
+print(f"Valor convertido : $ {conversao:2f} USD")
 
 
