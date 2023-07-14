@@ -1,4 +1,5 @@
 # Elaboração de um código  para fatoração
+#Exercicio 06
 
 numero=int(input("Digite um número: "))
 fatoracao=1 
