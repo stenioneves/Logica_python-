@@ -6,8 +6,8 @@ alunos.append("Stenio")
 print(alunos)
 
 alunos.remove("Ana")
-pesquisa_aluno=input("Digite o nome do Aluno")
-if "Stenio" in  alunos:
-    print(f"Aluno encontrado ")
+pesquisa_aluno=input("Digite o nome do Aluno: ")
+if pesquisa_aluno in  alunos:
+    print(f"Aluno {pesquisa_aluno} encontrado ")
 else:
     print("Aluno não encontrado")    
